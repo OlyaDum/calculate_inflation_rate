@@ -1,0 +1,13 @@
+def calculate_inflation_rate(initial_price, final_price):
+    inflation_rate = ((final_price - initial_price) / initial_price) * 100
+    return inflation_rate
+
+# Example calculation using hypothetical historical gold prices
+initial_price = 1000  # Initial gold price in a specific period
+final_price = 1500    # Final gold price in a later period
+
+# Calculate the inflation rate
+gold_inflation_rate = calculate_inflation_rate(initial_price, final_price)
+
+# Print the result
+print(f"Gold inflation rate: {gold_inflation_rate}%")
